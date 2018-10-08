@@ -5,9 +5,16 @@ https://github.com/warp-exchange/rest-api
  
  Agora vamos lá:
  
- # Npm:
+# Instalação:
+
+#### NPM
 ```sh
-> npm install warpexchange
+npm i warpexchange --save
+```
+
+#### YARN
+```sh
+yarn add warpexchange
 ```
 
 (Abra o arquivo index.js - já tem tudo lá)
