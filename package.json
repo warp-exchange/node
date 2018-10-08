@@ -1,32 +1,31 @@
 {
   "name": "warpexchange",
-  "version": "1.0.6",
   "description": "WarpExchange Payment Gateway :) ",
-  "main": "WarpExchange.js",
+  "version": "1.0.6",
+  "author": "lucasschoch",
+  "bugs": {
+    "url": "https://github.com/warp-exchange/rest-api/issues"
+  },
   "dependencies": {
-    "unirest": "^0.5.1"
+    "unirest": "0.5.1"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "homepage": "https://github.com/warp-exchange/rest-api#readme",
+  "keywords": [
+    "bitcoin",
+    "criptocurrencies",
+    "gateway",
+    "litecoin",
+    "payment",
+    "warp",
+    "warp exchange"
+  ],
+  "license": "MIT",
+  "main": "WarpExchange.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/warp-exchange/rest-api.git"
   },
-  "keywords": [
-    "payment",
-    "bitcoin",
-    "litecoin",
-    "gateway",
-    "criptocurrencies",
-    "warp",
-    "warp exchange"
-  ],
-  "author": "lucasschoch",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/warp-exchange/rest-api/issues"
-  },
-  "homepage": "https://github.com/warp-exchange/rest-api#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
